@@ -13,7 +13,9 @@ return {
     end,
     single_file_support = true,
     settings = {
-      cspell = {
+      cSpell = {
+        logLevel = 3,
+        logFile = "/tmp/cspell.log",
         analysis = {
           autoSearchPaths = true,
           useLibraryCodeForTypes = true,
